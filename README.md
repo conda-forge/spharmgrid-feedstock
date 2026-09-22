@@ -7,7 +7,7 @@ Home: https://pypi.org/project/spharmgrid/
 
 Package license: BSD-3-Clause
 
-Summary: Spherical harmonic tools for filtering, regridding, and kinematics in atmospheric science with Xarray and PyTorch
+Summary: Spherical harmonic tools for filtering, regridding, and kinematics in atmospheric science with Xarray, PyTorch, and JAX
 
 Development: https://github.com/mwyau/spharmgrid
 
