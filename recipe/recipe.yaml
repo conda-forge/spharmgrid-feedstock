@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: spharmgrid
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spharmgrid/spharmgrid-${{ version }}.tar.gz
-  sha256: 7b5e3c9646e3486578d15763d285b7d4079367ac3ca11d98c470abbb31e8593e
+  sha256: e9756fd1049944f1e2313fd6bd3244315e76a2d0a3c2449829b602b76c3ac687
 
 build:
   number: 0
@@ -22,7 +22,7 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - hatchling >=1.32.3
+    - hatchling >=1.32.4
     - pip
   run:
     - python >=${{ python_min }}
