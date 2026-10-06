@@ -22,7 +22,7 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - hatchling >=1.32.3
+    - hatchling >=1.32.4
     - pip
   run:
     - python >=${{ python_min }}
