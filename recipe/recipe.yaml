@@ -59,10 +59,10 @@ about:
   summary: Spherical harmonic tools for filtering, regridding, and kinematics in atmospheric science with Xarray, PyTorch, and JAX
   description: |
     spharmgrid (spherical harmonic gridding) implements spherical harmonic
-    filtering, regridding, differential operators, and atmospheric wind
-    diagnostics for global xarray fields. It computes relative vorticity,
-    divergence, streamfunction, velocity potential, Helmholtz decomposition,
-    and inverse wind transforms.
+    filtering, regridding, differential operators, and atmospheric kinematics
+    for global Xarray fields, JAX arrays, and PyTorch tensors. It computes
+    relative vorticity, divergence, streamfunction, velocity potential,
+    Helmholtz decomposition, and inverse wind transforms.
   license: BSD-3-Clause
   license_file: LICENSE
   homepage: https://pypi.org/project/spharmgrid/
