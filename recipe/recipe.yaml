@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: spharmgrid
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spharmgrid/spharmgrid-${{ version }}.tar.gz
-  sha256: e9756fd1049944f1e2313fd6bd3244315e76a2d0a3c2449829b602b76c3ac687
+  sha256: ad40b0bf2aa8d33cce158570d322ba7d52a640e4ca6d540672d2548b4b729be4
 
 build:
   number: 0
@@ -37,6 +37,9 @@ requirements:
     - zarr >=3.0.0
     - cfgrib >=0.9.15
     - python-eccodes >=2.48.0
+    - jax >=0.5.0
+    - torch-harmonics >=0.9.3
+    - pytorch >=2.13.0
 
 tests:
   - python:
@@ -56,10 +59,10 @@ about:
   summary: Spherical harmonic tools for filtering, regridding, and kinematics in atmospheric science with Xarray, PyTorch, and JAX
   description: |
     spharmgrid (spherical harmonic gridding) implements spherical harmonic
-    filtering, regridding, differential operators, and atmospheric wind
-    diagnostics for global xarray fields. It computes relative vorticity,
-    divergence, streamfunction, velocity potential, Helmholtz decomposition,
-    and inverse wind transforms.
+    filtering, regridding, differential operators, and atmospheric kinematics
+    for global Xarray fields, JAX arrays, and PyTorch tensors. It computes
+    relative vorticity, divergence, streamfunction, velocity potential,
+    Helmholtz decomposition, and inverse wind transforms.
   license: BSD-3-Clause
   license_file: LICENSE
   homepage: https://pypi.org/project/spharmgrid/
