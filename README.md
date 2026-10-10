@@ -14,10 +14,10 @@ Development: https://github.com/mwyau/spharmgrid
 Documentation: https://spharmgrid.readthedocs.io/
 
 spharmgrid (spherical harmonic gridding) implements spherical harmonic
-filtering, regridding, differential operators, and atmospheric wind
-diagnostics for global xarray fields. It computes relative vorticity,
-divergence, streamfunction, velocity potential, Helmholtz decomposition,
-and inverse wind transforms.
+filtering, regridding, differential operators, and atmospheric kinematics
+for global Xarray fields, JAX arrays, and PyTorch tensors. It computes
+relative vorticity, divergence, streamfunction, velocity potential,
+Helmholtz decomposition, and inverse wind transforms.
 
 Current build status
 ====================
